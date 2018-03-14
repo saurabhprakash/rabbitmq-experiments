@@ -10,6 +10,10 @@ Experiments:
 
 
 Production checklist recommended by Rabbitmq: https://www.rabbitmq.com/production-checklist.html
+
+Additional Important links:
  - How the memory limit works: https://www.rabbitmq.com/memory.html
  - How the disk limit works: https://www.rabbitmq.com/disk-alarms.html
  - How clients can determine if they are blocked: https://www.rabbitmq.com/connection-blocked.html
+ - Networking guide: https://www.rabbitmq.com/networking.html
+ 
