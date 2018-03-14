@@ -7,3 +7,6 @@ Some useful commands:
 Experiments:
    - Tutorial 1 (https://www.rabbitmq.com/tutorials/tutorial-one-python.html): sender and reciver task, start a consumer(receive.py), which will run continuously waiting for deliveries.  Start the producer(send.py). The producer program will stop after every run.
    - Tutorial 2: working with workers, how to work with multiple workers, how rabbitmq handle situation when one worker dies(using help of acknowledgement), and how to handles cases when rabbitmq itself stops (https://www.rabbitmq.com/tutorials/tutorial-two-python.html): related files in current codebase - new_task.py, worker.py
+
+
+Production checklist recommended by Rabbitmq: https://www.rabbitmq.com/production-checklist.html
