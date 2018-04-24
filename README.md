@@ -17,3 +17,7 @@ Additional Important links:
  - How clients can determine if they are blocked: https://www.rabbitmq.com/connection-blocked.html
  - Networking guide: https://www.rabbitmq.com/networking.html
  
+Create admin user on rabbitmq
+  - rabbitmqctl add_user <username> <password>
+  - rabbitmqctl set_user_tags <username> administrator
+  - rabbitmqctl set_permissions -p / <username> ".*" ".*" ".*"
