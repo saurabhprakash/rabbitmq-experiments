@@ -22,10 +22,12 @@ Create admin user on rabbitmq
   - rabbitmqctl set_user_tags <username> administrator
   - rabbitmqctl set_permissions -p / <username> ".*" ".*" ".*"
 
-installation :brew install rabbitmq
-start server: brew services start rabbitmq
+Setup:
+ - installation :brew install rabbitmq
+ - start server: brew services start rabbitmq
+ - Server location: /usr/local/opt/rabbitmq/sbin/rabbitmq-server
 
 For issue: "Error: Failure while executing; `git config --local --replace-all homebrew.private true` exited with 1."
 Refer this link: https://saurabhbuddha.blogspot.com/2018/10/rabbit-mq-issues-and-fixes-setup-issue.html
 
-Server location: /usr/local/opt/rabbitmq/sbin/rabbitmq-server
+
