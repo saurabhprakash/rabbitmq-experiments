@@ -66,4 +66,5 @@ Refer this link: https://saurabhbuddha.blogspot.com/2018/10/rabbit-mq-issues-and
 Tracelog setup imp links: 
  - http://www.mikeobrien.net/blog/tracing-rabbitmq-messages
  - https://serverascode.com/2016/12/17/tracing-logging-rabbitmq.html
+ - https://www.rabbitmq.com/firehose.html
  
